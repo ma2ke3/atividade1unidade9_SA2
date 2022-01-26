@@ -1,20 +1,69 @@
 *{
     margin: 10px;
     padding: 0;
-    box-sizing: border-box;}
-header{
+    box-sizing: border-box;
+
+    }
+
+    header{
     font-style:italic;
     font-weight: bold
-}
-body {
-            font-family: 'Work Sans';}
-a {
+    }
+    
+    body {
+            font-family: 'Work Sans';
+    }
+
+    a {
             color: #000000;
-            text-decoration: none;}
-a:hover {
+            text-decoration: none;
+    }
+    a:hover {
             color:#8b8b8b; 
             text-decoration:none; 
-            cursor:pointer;  }
+            cursor:pointer;  
+    }
 
-footer {
-    background-color:#929292;}
+    footer {
+    background-color:#929292;
+    }
+
+    .container-grid{
+        width: 1200px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 65%;
+        margin-left: 60%;
+    }
+
+    .pesquisa{
+        width: 50%;
+        margin-top: -5px
+        ;
+    }
+
+    .login{
+        width: 225px;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+        }
+    
+    .menu{
+            width: 800px;
+        }
+
+td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;}
+table {
+                width: 25%;}
+th {    
+        height: 70px;}

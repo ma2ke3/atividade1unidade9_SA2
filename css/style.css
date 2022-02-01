@@ -1,64 +1,57 @@
 *{
     margin: 10px;
     padding: 0;
-    box-sizing: border-box;
-
-    }
-
-    header{
+    box-sizing: border-box;}
+header{
     font-style:italic;
-    font-weight: bold
-    }
-    
-    body {
-            font-family: 'Work Sans';
-    }
-
-    a {
+    font-weight: bold}
+body {
+            font-family: 'Work Sans';}
+a {
             color: #000000;
-            text-decoration: none;
-    }
-    a:hover {
+            text-decoration: none;}
+a:hover {
             color:#8b8b8b; 
             text-decoration:none; 
-            cursor:pointer;  
-    }
-
-    footer {
-    background-color:#929292;
-    }
-
-    .container-grid{
+            cursor:pointer;}
+footer {
+    background-color:#929292;}
+.container-grid{
         width: 1200px;
         height: 100%;
         margin: auto;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-    }
-
-    .logo {
+        align-items: center;}
+.logo {
         width: 65%;
-        margin-left: 60%;
-    }
-
-    .pesquisa{
+        margin-left: 60%;}
+.pesquisa{
         width: 50%;
         margin-top: -5px
-        ;
-    }
-
-    .login{
+        ;}
+.login{
         width: 225px;
         height: 36px;
         display: flex;
-        justify-content: space-between;
-        }
-    
-    .menu{
-            width: 800px;
-        }
+        justify-content: space-between;}
+.menu{
+            width: 800px;}
+.column {
+        flex: 50%;
+        padding: 0 4px;
+        padding-left: 200px;}
+              
+.column img {
+        margin-top: 8px;
+        vertical-align: top;}
 
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+      }
 td {
         border: 1px solid black;
         text-align: center;
@@ -67,3 +60,15 @@ table {
                 width: 25%;}
 th {    
         height: 70px;}
+
+.tbrow {
+        margin-left:-5px;
+        margin-right:-5px;}
+.tbcolumn {
+        float: left;
+        width: 50%;
+        padding: 5px;}
+.tbrow::after {
+        content: "";
+        clear: both;
+        display: table;}

@@ -14,8 +14,7 @@ a:hover {
             color:#8b8b8b; 
             text-decoration:none; 
             cursor:pointer;}
-footer {
-    background-color:#929292;}
+
 .container-grid{
         width: 1200px;
         height: 100%;
@@ -40,7 +39,7 @@ footer {
 .column {
         flex: 50%;
         padding: 0 4px;
-        padding-left: 200px;}
+        padding-left: 300px;}
               
 .column img {
         margin-top: 8px;
@@ -50,7 +49,7 @@ footer {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 75%;
+        width: 50%;
       }
 td {
         border: 1px solid black;
@@ -72,3 +71,38 @@ th {
         content: "";
         clear: both;
         display: table;}
+
+.footer {
+        width: 100%;
+        background-color: #797979;
+        color: black;
+        text-align: left;
+        padding-top: 10px;}
+ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 350px;}
+.socialmedia {
+        display: inline;
+        justify-content: space-between;
+}
+.socialmedia img {
+        width: 50px;
+}
+hr {
+        width: 35%;
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-style:solid;
+        color: #000000;
+        border-width: 1px;
+        } 
+.logocompleto {
+display: flex;
+justify-content: right;
+}
+.logocompleto img {
+        width: 35%;
+}

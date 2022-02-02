@@ -1,108 +1,229 @@
-*{
-    margin: 10px;
-    padding: 0;
-    box-sizing: border-box;}
-header{
-    font-style:italic;
-    font-weight: bold}
-body {
-            font-family: 'Work Sans';}
-a {
-            color: #000000;
-            text-decoration: none;}
-a:hover {
-            color:#8b8b8b; 
-            text-decoration:none; 
-            cursor:pointer;}
+* {
+        margin: 10px;
+        padding: 0;
+        box-sizing: border-box;
+}
 
-.container-grid{
+header {
+        font-style: italic;
+        font-weight: bold
+}
+
+body {
+        font-family: 'Work Sans';
+}
+
+a {
+        color: #000000;
+        text-decoration: none;
+}
+
+a:hover {
+        color: #8b8b8b;
+        text-decoration: none;
+        cursor: pointer;
+}
+
+.banner {
+        width: 1140px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+.banner1 h3{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 600px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner1 p{
+        font-size: 20px;
+        font-family: 'Work Sans';
+        width: 600px;
+        text-align: justify;
+        text-justify: inter-word;   
+}
+.banner2 h3{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 400px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner2 p{
+        font-size: 20px;
+        font-family: 'Work Sans';
+        width: 400px;
+        text-align: justify;
+        text-justify: inter-word;  
+}
+.banner3 h3{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 325px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner4 h3{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 325px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner5 h3{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 325px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner6 h3{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 325px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner7 h3{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 325px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner8 h3{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 325px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.container-grid {
         width: 1200px;
         height: 100%;
         margin: auto;
         display: flex;
         justify-content: space-between;
-        align-items: center;}
+        align-items: center;
+}
+
 .logo {
         width: 65%;
-        margin-left: 60%;}
-.pesquisa{
+        margin-left: 60%;
+}
+
+.pesquisa {
         width: 50%;
-        margin-top: -5px
-        ;}
-.login{
+        margin-top: -5px;
+}
+
+.login {
         width: 225px;
         height: 36px;
         display: flex;
-        justify-content: space-between;}
-.menu{
-            width: 800px;}
+        justify-content: space-between;
+}
+
+.menu {
+        width: 800px;
+}
+
 .column {
         flex: 50%;
         padding: 0 4px;
-        padding-left: 300px;}
-              
+        padding-left: 300px;
+}
+
 .column img {
         margin-top: 8px;
-        vertical-align: top;}
+        vertical-align: top;
+}
 
 .center {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-      }
+}
+
 td {
         border: 1px solid black;
         text-align: center;
-        padding: 10px;}
+        padding: 0;
+}
+
 table {
-                width: 25%;}
-th {    
-        height: 70px;}
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 25%;
+        text-align: center;
+        width: 500px;
 
-.tbrow {
-        margin-left:-5px;
-        margin-right:-5px;}
-.tbcolumn {
-        float: left;
-        width: 50%;
-        padding: 5px;}
-.tbrow::after {
-        content: "";
-        clear: both;
-        display: table;}
+}
 
+th {
+        height: 70px
+}
+
+.top{
+        width: 1140px;
+        display:flex;
+        justify-content: space-between;
+}
 .footer {
         width: 100%;
         background-color: #797979;
         color: black;
         text-align: left;
-        padding-top: 10px;}
+        padding-top: 10px;
+}
+
 ul {
         list-style: none;
         margin: 0;
         padding: 0;
-        width: 350px;}
+        width: 350px;
+}
+
 .socialmedia {
         display: inline;
         justify-content: space-between;
 }
+
 .socialmedia img {
         width: 50px;
 }
+
 hr {
         width: 35%;
         display: block;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
-        border-style:solid;
+        border-style: solid;
         color: #000000;
         border-width: 1px;
-        } 
-.logocompleto {
-display: flex;
-justify-content: right;
 }
+
+.logocompleto {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+}
+
 .logocompleto img {
         width: 35%;
+        align-items: center;
+        display: flex;
+        align-items: left;
 }

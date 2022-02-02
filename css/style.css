@@ -227,3 +227,54 @@ hr {
         display: flex;
         align-items: left;
 }
+.barras {
+        width: 60px;
+        display: none;
+}
+.posicionamento-header{
+        position: relative;
+}
+@media screen and (max-width: 1200px) {
+        .container-grid {
+                width:90%;
+        }
+.menu {
+        display: none;
+}
+.menu a{
+        font-size: 16px;
+}
+.logo{
+        width: 65%;
+}
+.pesquisa {
+        width: 65%;
+}
+.barras {
+        display: inline-block;
+}
+}
+@media screen and (max-width: 768px) {
+        .logo{
+                width: 65%;
+        }
+        .pesquisa {
+                width: 65%;
+        }
+        .barras {
+                display: inline-block;
+        }
+        .menu {
+                display: none;
+                flex-direction: column;
+                width: 250px;
+                position: absolute;
+                top: 0;
+                right: 40px;
+                background-color: #a7a7a7;
+        }
+        .menu a{
+                text-align: center;
+                padding: 15px;
+        }
+}

@@ -127,13 +127,12 @@ a:hover {
         margin-top: -5px;
 }
 
-.login {
-        width: 300px;
+.loginsignin {
+        width: 250px;
         height: 36px;
         display: flex;
         justify-content: space-between;
 }
-
 .menu {
         width: 800px;
 }
@@ -259,7 +258,7 @@ hr {
                 width: 65%;
         }
         .pesquisa {
-                width: 65%;
+                width: 50%;
         }
         .barras {
                 display: inline-block;
